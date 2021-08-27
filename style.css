@@ -1,0 +1,213 @@
+/* https://colorhunt.co/palette/ffdadadbf6e99ddfd331326f */
+
+
+		/* Tile section */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+   html{
+       font-size: 62.5%;
+   }
+
+nav{
+	background-color: #FFDADA  ;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+	border-bottom: 0.2rem solid black;
+    width: 100%;
+	display: flex;
+	justify-content: space-between;
+
+	/* transition: 0.2s; */
+	position: fixed;
+
+	
+/*       
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  
+   /* width: 100%; */
+  
+}
+
+
+a{
+	text-decoration: none;
+	color: #312f2f
+	;
+}
+
+nav .brand{
+	padding-left: 0.2rem;
+    margin-left: 3rem;
+	font-size: 4.5rem;
+	font-family: 'Righteous', cursive;
+}
+
+
+
+    .sign {
+        margin-top: auto;
+		margin-bottom: auto;
+        margin-right: 3.2rem;
+        background-color:transparent;
+        border-radius:28px;
+        border:2px solid black;
+        display:inline;
+        cursor:pointer;
+        color:black;
+        font-family:Arial;
+        font-size: 1.2rem;
+        padding:1.3rem 3.1rem;
+        text-decoration:none;
+        float: right;
+    }
+    .sign:hover {
+        background-color:black;
+        color: white;
+    }
+    .sign:active {
+        position:relative;
+        top:0.1rem;
+    }
+
+	
+
+    .title-img{
+    width: 54rem;
+    float: left;
+    margin-left: 4rem;
+    margin-top: 11.4rem;
+	
+    }
+    
+#title{
+    background-color: #FFDADA  ;
+    
+    border-bottom: 2px solid black;
+    padding-top: 0.2rem;
+    padding-bottom: 2.7rem;
+	/* box-sizing: border-box; */
+	font-family: sans-serif;
+    background-size: contain;
+	justify-content: space-between;
+    display: flex;
+    width: auto;
+}
+
+
+#title h1{
+    font-size: 5.6rem;
+	margin: auto;
+ 
+    /* font-weight: 100; */
+}
+
+#title h2{
+    font-size: 5.6rem;
+    margin: auto;
+    
+    /* font-weight: 100; */
+}
+   #title button{
+       font-size: 3.1rem;
+       padding: 0.5rem 2.1rem;
+       border-radius:2.8rem;
+    margin-left: 0rem;
+    margin-top: 2.2rem;
+    border-style: inset;
+    box-shadow: 0 4px 8px 0 rgb(214, 171, 171), 0 6px 20px 0 rgb(206, 176, 176);
+   }
+ 
+   #title button:hover{
+    box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+   }
+.title-text{
+      margin-top: 16rem;
+      padding-top: 20rem;
+       margin-left: auto;
+       margin-right:7rem;
+       width: 74rem;
+
+       /* border:2px solid red; */
+       display: inline-block;
+   }
+
+
+   
+@media only screen and (max-width: 998px) {
+
+     html{
+         font-size: 55%;
+     }
+         #title{
+             display: block;
+            justify-content: center;
+             text-align: center;
+             width: fit-content;
+         }
+
+         .title-img{
+             margin-top: 17rem;
+        margin-left: auto;
+        margin-right: auto;     
+        justify-content: center;
+    display: block;    }
+
+        .title-text{
+            /* margin-top: 1rem; */
+            margin-top: auto;
+            margin-left: auto;
+            margin-right: auto;   
+
+            width: 69rem;
+            display: inline-block;
+            padding-top: 0;
+           /* padding-left: 0.2rem;
+           padding-right: 0.2rem; */
+            /* text-align: center; */
+        }
+
+        .sign{
+            font-size: 2.2rem;
+        }
+    
+    }
+    
+
+    @media only screen and (max-width: 469px) {
+        nav {
+         
+            padding-top: 2.3rem;
+            padding-bottom: 2.3rem;
+        }
+    }
+/* 
+   
+
+@media only screen and (max-width: 700px) {
+	.sign{
+		margin-top: 1%;
+	
+	}
+	
+	nav{
+		padding-top: 3%;
+		padding-bottom: 4%;
+	}
+
+	nav .brand{
+		font-size: 36px;
+	}
+
+  }
+
+  
+@media only screen and (max-width: 354px) {
+     .sign{
+		 display: none;
+	 }
+}
+*/
