@@ -189,7 +189,38 @@ nav .brand{
         .title-text{
             width: 40rem;
         }
+
+        .title-img{
+            width: 40rem;
+        }
+
+        .sign{
+            display: none;
+        }
+
+
     }
+    @media only screen and (max-width: 322px) {
+        .title-img{
+            width: 30rem;
+
+    }
+
+    .title-text{
+        width: 32rem;
+    }
+
+    }
+    @media only screen and (max-width: 277px) {
+        .title-img{
+            width: 30rem;
+        }
+        .title-text{
+            width: 23rem;
+        }
+    }
+
+
 /* 
    
 
