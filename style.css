@@ -85,9 +85,9 @@ nav .brand{
 	
 
     .title-img{
-    width: 54rem;
+    width: 49rem;
     float: left;
-    margin-left: 4rem;
+    margin-left: 9rem;
     margin-top: 11.4rem;
 	
     }
@@ -199,10 +199,19 @@ nav .brand{
          
             padding-top: 2.3rem;
             padding-bottom: 2.3rem;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+            position: absolute;
+
+
         }
 
         nav .brand{
-            font-size: 3.6;
+            font-size: 3.6rem;
+           margin-top: 0.5rem;
+        }
+
+        .floatingNav {
+          background-color: transparent;
         }
 
         .title-text{
@@ -222,7 +231,7 @@ nav .brand{
         }
 
         .sign{
-            display: none;
+            font-size: 1.4rem;
         }
 
 
@@ -237,13 +246,33 @@ nav .brand{
         width: 32rem;
     }
 
+     
+    .sign{
+        font-size: 1rem;
+
     }
-    @media only screen and (max-width: 277px) {
+
+   nav .brand{
+        font-size:2.9rem ;
+    }
+
+    }
+    @media only screen and (max-width: 282px) {
         .title-img{
             width: 30rem;
         }
         .title-text{
             width: 23rem;
         }
+
+         
+    .sign{
+        font-size: 1rem;
+
+    }
+
+   nav .brand{
+        font-size:1.9rem ;
+    }
     }
 
