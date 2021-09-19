@@ -14,6 +14,7 @@
 
    body{
     font-family: 'Roboto', sans-serif;
+    background-image: radial-gradient(circle, #67a5ee, #5596e2, #4287d6, #2c79ca, #086bbe);
    } 
 
 nav{
@@ -82,27 +83,25 @@ nav .brand{
         top:0.1rem;
     }
 
-	
-
-    .title-img{
-    width: 49rem;
-    float: left;
-    margin-left: 9rem;
-    margin-top: 11.4rem;
-	
-    }
+	           /*************** title SECTION *********************/
     
 #title{
-    background-image: radial-gradient(circle, #67a5ee, #5596e2, #4287d6, #2c79ca, #086bbe);
+    /* background-image: radial-gradient(circle, #67a5ee, #5596e2, #4287d6, #2c79ca, #086bbe); */
 
     /* background-color: #FFDADA  ; */
+
+    background-image: url("todobg.png");
+    background-repeat: no-repeat;
+    background-size: 45rem;
+    background-position-x: 12rem;
+    background-position-y: 12rem;
     
     border-bottom: 2px solid black;
     padding-top: 0.2rem;
-    padding-bottom: 2.7rem;
+    padding-bottom: 19.7rem;
 	/* box-sizing: border-box; */
 	font-family: sans-serif;
-    background-size: contain;
+ 
 	justify-content: space-between;
     display: flex;
     width: auto;
@@ -110,19 +109,13 @@ nav .brand{
 }
 
 
-#title h1{
+#title h1 , h2 {
     font-size: 5.6rem;
 	margin: auto;
  
   
 }
 
-#title h2{
-    font-size: 5.6rem;
-    margin: auto;
-    
-    
-}
    #title button{
        font-size: 3.1rem;
        padding: 0.5rem 2.1rem;
@@ -145,11 +138,35 @@ nav .brand{
        margin-left: auto;
        margin-right:7rem;
        width: 74rem;
-
-       /* border:2px solid red; */
+      
+      
        display: inline-block;
+    
    }
 
+      /************* SCREEN MEDIA *************/
+
+
+@media only screen and (max-width: 1120px) {
+         
+    #title{
+        background-position-x: center;
+        background-size: 40rem;
+    }
+
+    #title h1 , h2{
+     font-size: 4rem;
+    }
+
+    .title-text{
+        text-align: center;
+    }
+
+    #title button{
+        text-align: center;
+    }
+
+}
 
    
 @media only screen and (max-width: 998px) {
@@ -158,30 +175,27 @@ nav .brand{
          font-size: 55%;
      }
          #title{
-             display: block;
-            justify-content: center;
+             /* display: block;
+            justify-content: center; */
              text-align: center;
-             width: fit-content;
+             background-size: 40rem;
+             background-position-y: 16rem;
+             /* width: fit-content; */
             
          }
 
-         .title-img{
-             margin-top: 17rem;
-        margin-left: auto;
-        margin-right: auto;     
-        justify-content: center;
-        width: 49rem;
-    display: block;    }
+        
 
         .title-text{
             /* margin-top: 1rem; */
-            margin-top: auto;
+            margin-top: 49rem;
             margin-left: auto;
             margin-right: auto;   
 
             width: 53rem;
             display: inline-block;
             padding-top: 0;
+
            /* padding-left: 0.2rem;
            padding-right: 0.2rem; */
             /* text-align: center; */
@@ -214,20 +228,25 @@ nav .brand{
           background-color: transparent;
         }
 
+        #title{
+            padding-bottom: 11rem;
+            background-size: 33rem;
+            background-position-y: 18rem;
+        }
+
         .title-text{
-            width: 40rem;
+            width: 36rem;
         }
 
-        #title h1 {
-            font-size: 3.6rem;
+        #title h1 , h2 {
+            font-size: 3rem;
         }
 
-        #title h2{
-            font-size: 3.6rem;
-        }
+       
 
-        .title-img{
-            width: 40rem;
+    
+        #title button{
+            font-size:2rem ;
         }
 
         .sign{
@@ -237,10 +256,7 @@ nav .brand{
 
     }
     @media only screen and (max-width: 322px) {
-        .title-img{
-            width: 30rem;
-
-    }
+   
 
     .title-text{
         width: 32rem;
@@ -258,9 +274,7 @@ nav .brand{
 
     }
     @media only screen and (max-width: 282px) {
-        .title-img{
-            width: 30rem;
-        }
+      
         .title-text{
             width: 23rem;
         }
