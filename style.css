@@ -45,8 +45,7 @@ nav{
 
 a{
 	text-decoration: none;
-	color: #312f2f
-	;
+	color: #312f2f;
 }
 
 nav .brand{
@@ -128,10 +127,13 @@ nav .brand{
     background-color: #dc3c4d    ;
     color: white;
    }
+
  
    #title button:hover{
     box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
    }
+
+
 .title-text{
       margin-top: 16rem;
       padding-top: 20rem;
@@ -146,12 +148,25 @@ nav .brand{
 
       /************* SCREEN MEDIA *************/
 
+      @media only screen and (max-width: 1340px) {
+            
+        .title-text{
+         margin-left: 66rem;
+        }
+
+        #title h1 , h2{
+            font-size: 5rem;
+        }
+
+      }
+
 
 @media only screen and (max-width: 1120px) {
          
     #title{
         background-position-x: center;
         background-size: 40rem;
+       
     }
 
     #title h1 , h2{
@@ -159,8 +174,18 @@ nav .brand{
     }
 
     .title-text{
-        text-align: center;
+       text-align: center;
+        margin-top: 49rem;
+        margin-left: auto;
+        margin-right: auto;   
+
+        width: 53rem;
+        display: inline-block;
+        padding-top: 0;
+
+     
     }
+
 
     #title button{
         text-align: center;
@@ -175,19 +200,18 @@ nav .brand{
          font-size: 55%;
      }
          #title{
-             /* display: block;
-            justify-content: center; */
+            
              text-align: center;
              background-size: 40rem;
              background-position-y: 16rem;
-             /* width: fit-content; */
+             
             
          }
 
         
 
         .title-text{
-            /* margin-top: 1rem; */
+           
             margin-top: 49rem;
             margin-left: auto;
             margin-right: auto;   
@@ -196,9 +220,7 @@ nav .brand{
             display: inline-block;
             padding-top: 0;
 
-           /* padding-left: 0.2rem;
-           padding-right: 0.2rem; */
-            /* text-align: center; */
+          
         }
 
         .sign{
@@ -231,7 +253,7 @@ nav .brand{
         #title{
             padding-bottom: 11rem;
             background-size: 33rem;
-            background-position-y: 18rem;
+            background-position-y: 22rem;
         }
 
         .title-text{
@@ -288,5 +310,12 @@ nav .brand{
    nav .brand{
         font-size:1.9rem ;
     }
+
     }
+
+
+
+    /*****************SECOND SECTION***********/
+    /*****************VIDEO SECTION************/
+
 
