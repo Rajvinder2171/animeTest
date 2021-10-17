@@ -89,7 +89,7 @@ nav .brand{
 
     /* background-color: #FFDADA  ; */
 
-    background-image: url("shadow.png");
+    background-image: url("kyo.png");
     background-repeat: no-repeat;
     background-size: 55rem;
     background-position-x: 12rem;
@@ -111,6 +111,7 @@ nav .brand{
 #title h1 , h2 {
     font-size: 5.6rem;
 	margin: auto;
+    text-shadow:  0 0 3px black, 0 0 5px black;
  
   
 }
@@ -124,7 +125,9 @@ nav .brand{
     border: 2px solid gray;
     /* border-style: inset; */
     /* box-shadow: 0 4px 8px 0 rgb(214, 171, 171), 0 6px 20px 0 rgb(206, 176, 176); */
-    background-color: #dc3c4d    ;
+    /* background-color: #dc3c4d    ; */
+    background-color: #c91e40 ;
+   border: 1px solid black;
     color: white;
    }
 
@@ -337,6 +340,11 @@ nav .brand{
     .slider{
     margin-top: 5rem;
     border: none;
+        
+    }
+
+    iframe{
+        text-align: center;
         
     }
 
