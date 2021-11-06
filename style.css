@@ -8,11 +8,11 @@
 	box-sizing: border-box;
 }
 
-   html{
-       font-size: 62.5%;
+html{
+    font-size: 62.5%;
    }
 
-   body{
+body{
     font-family: 'Roboto', sans-serif;
     background-image: radial-gradient(circle, #67a5ee, #5596e2, #4287d6, #2c79ca, #086bbe);
    } 
@@ -21,23 +21,16 @@ nav{
     background-color: transparent;
     padding-top: 1.3rem;
     padding-bottom: 1.3rem;
-  
-
     width: 100%;
 	display: flex;
 	justify-content: space-between;
      color: white;
 	/* transition: 0.2s; */
 	position: fixed;
-/*       
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
-  
-   /* width: 100%; */
-  
+/*  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 .floatingNav {
-    
     background-color: #117ace!important;
     border-radius: 2px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
@@ -53,54 +46,50 @@ nav .brand{
     margin-left: 3rem;
 	font-size: 4.5rem;
 	color: white;
+
 }
 
+.sign {
+     margin-top: auto;
+	margin-bottom: auto;
+    margin-right: 3.2rem;
+    background-color:transparent;
+    border-radius:28px;
+    border:2px solid white;
+    display:inline;
+    cursor:pointer;
+    color:white;
+    font-family:Arial;
+    font-size: 1.2rem;
+    padding:1.3rem 3.1rem;
+    text-decoration:none;
+    float: right;
 
+}
 
-    .sign {
-        margin-top: auto;
-		margin-bottom: auto;
-        margin-right: 3.2rem;
-        background-color:transparent;
-        border-radius:28px;
-        border:2px solid white;
-        display:inline;
-        cursor:pointer;
-        color:white;
-        font-family:Arial;
-        font-size: 1.2rem;
-        padding:1.3rem 3.1rem;
-        text-decoration:none;
-        float: right;
-    }
-    .sign:hover {
-        background-color:white;
-        color:#117ace ;
-    }
-    .sign:active {
-        position:relative;
-        top:0.1rem;
-    }
+.sign:hover {
+    background-color:white;
+    color:#117ace ;
+}
 
-	           /*************** title SECTION *********************/
+.sign:active {
+    position:relative;
+    top:0.1rem;
+
+}
+
+ /*************** title SECTION *********************/
     
 #title{
-    /* background-image: radial-gradient(circle, #67a5ee, #5596e2, #4287d6, #2c79ca, #086bbe); */
-
-    /* background-color: #FFDADA  ; */
-
-    background-image: url("PicsArt_10-20-10.55.24.png ");
+    background-image: url("https://raw.githubusercontent.com/Rajvinder2171/animeTest/main/PicsArt_10-20-10.55.24.png");
     background-repeat: no-repeat;
     background-size: 55rem;
     background-position-x: 12rem;
-    background-position-y: 11rem;
-    
+    background-position-y: 11rem; 
     border-bottom: 2px solid black;
     padding-top: 0.2rem;
     padding-bottom: 19.7rem;
-	/* box-sizing: border-box; */
 	font-family: sans-serif;
- 
 	justify-content: space-between;
     display: flex;
     width: auto;
@@ -111,64 +100,60 @@ nav .brand{
 #title h1 , h2 {
     font-size: 5.6rem;
 	margin: auto;
-    text-shadow:  0 0 3px black, 0 0 5px black;
+    
  
   
 }
 
-   #title button{
-       font-size: 3.1rem;
-       padding: 0.5rem 2.1rem;
-       border-radius:2.8rem;
+#title button{
+    font-size: 3.1rem;
+    padding: 0.5rem 2.1rem;
+    border-radius:2.8rem;
     margin-left: 0rem;
     margin-top: 2.2rem;
     border: 2px solid gray;
-    /* border-style: inset; */
-    /* box-shadow: 0 4px 8px 0 rgb(214, 171, 171), 0 6px 20px 0 rgb(206, 176, 176); */
-    /* background-color: #dc3c4d    ; */
     background-color: #c91e40 ;
-   border: 1px solid black;
+    border: 1px solid black;
     color: white;
+
    }
 
- 
-   #title button:hover{
+#title button:hover{
     box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+
    }
 
 
-.title-text{
-      margin-top: 16rem;
-      padding-top: 20rem;
-       margin-left: auto;
-       margin-right:7rem;
-       width: 74rem;
-      
-      
-       display: inline-block;
+ .title-text{
+    margin-top: 16rem;
+    padding-top: 20rem;
+    margin-left: auto;
+    margin-right:7rem;
+    width: 74rem; 
+    display: inline-block;
     
    }
 
       /************* SCREEN MEDIA *************/
 
-      @media only screen and (max-width: 1340px) {
+@media only screen and (max-width: 1340px) {
             
-        .title-text{
-         margin-left: 66rem;
-        }
+    .title-text{
+    margin-left: 66rem;
+    }
 
-        #title h1 , h2{
-            font-size: 5rem;
-        }
+    #title h1 , h2{
+    font-size: 5rem;
+    }
 
-      }
+    }
 
 
 @media only screen and (max-width: 1120px) {
          
     #title{
-        background-position-x: center;
-        background-size: 40rem;
+    background-position-x: center;
+    background-size: 40rem;
        
     }
 
@@ -177,21 +162,19 @@ nav .brand{
     }
 
     .title-text{
-       text-align: center;
-        margin-top: 49rem;
-        margin-left: auto;
-        margin-right: auto;   
-
-        width: 53rem;
-        display: inline-block;
-        padding-top: 0;
-
-     
+    text-align: center;
+    margin-top: 49rem;
+    margin-left: auto;
+    margin-right: auto;   
+    width: 53rem;
+    display: inline-block;
+    padding-top: 0;
+ 
     }
 
 
     #title button{
-        text-align: center;
+    text-align: center;
     }
 
 }
@@ -199,122 +182,111 @@ nav .brand{
    
 @media only screen and (max-width: 998px) {
 
-     html{
-         font-size: 55%;
+    html{
+    font-size: 55%;
      }
-         #title{
-            
-             text-align: center;
-             background-size: 40rem;
-             background-position-y: 16rem;
-             
-            
-         }
+    #title{  
+    text-align: center;
+    background-size: 40rem;
+    background-position-y: 16rem;
+                 
+    }
 
         
 
-        .title-text{
-           
-            margin-top: 49rem;
-            margin-left: auto;
-            margin-right: auto;   
-
-            width: 53rem;
-            display: inline-block;
-            padding-top: 0;
-
+    .title-text{
+    margin-top: 49rem;
+     margin-left: auto;
+    margin-right: auto;   
+    width: 53rem;
+    display: inline-block;
+    padding-top: 0;
           
-        }
+    }
 
-        .sign{
-            font-size: 2.2rem;
-        }
+    .sign{
+    font-size: 2.2rem;
+    }
     
     }
     
 
-    @media only screen and (max-width: 469px) {
-        nav {
-         
-            padding-top: 2.3rem;
-            padding-bottom: 2.3rem;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
-            position: absolute;
-
-
-        }
-
-        nav .brand{
-            font-size: 3.6rem;
-           margin-top: 0.5rem;
-        }
-
-        .floatingNav {
-          background-color: transparent;
-        }
-
-        #title{
-            padding-bottom: 11rem;
-            background-size: 33rem;
-            background-position-y: 22rem;
-        }
-
-        .title-text{
-            width: 36rem;
-        }
-
-        #title h1 , h2 {
-            font-size: 3rem;
-        }
-
-       
-
-    
-        #title button{
-            font-size:2rem ;
-        }
-
-        .sign{
-            font-size: 1.4rem;
-        }
-
-
+@media only screen and (max-width: 469px) {
+    nav {    
+    padding-top: 2.3rem;
+    padding-bottom: 2.3rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    position: absolute;
     }
-    @media only screen and (max-width: 322px) {
+
+    nav .brand{
+    font-size: 2.6rem;
+    margin-top: 0.5rem;
+    }
+
+    .floatingNav {
+    background-color: transparent;
+    }
+
+    #title{
+    padding-bottom: 11rem;
+    background-size: 33rem;
+    background-position-y: 22rem;
+    }
+
+    .title-text{
+    width: 36rem;
+    }
+
+    #title h1 , h2 {
+    font-size: 3rem;
+    }
+
+    #title button{
+    font-size:2rem ;
+    }
+
+    .sign{
+    font-size: 1.4rem;
+    }
+
+}
+
+@media only screen and (max-width: 322px) {
    
 
     .title-text{
-        width: 32rem;
+    width: 32rem;
     }
 
      
     .sign{
-        font-size: 1rem;
+    font-size: 1rem;
 
     }
 
    nav .brand{
-        font-size:2.9rem ;
+    font-size:2.9rem ;
     }
 
-    }
-    @media only screen and (max-width: 282px) {
+}
+
+@media only screen and (max-width: 282px) {
       
-        .title-text{
-            width: 23rem;
-        }
-
-         
+    .title-text{
+    width: 23rem;
+    }
+     
     .sign{
-        font-size: 1rem;
+    font-size: 1rem;
 
     }
 
    nav .brand{
-        font-size:1.9rem ;
+    font-size:1.9rem ;
     }
 
-    }
+}
 
 
 
@@ -323,18 +295,18 @@ nav .brand{
 
 
     #secondSection{
-        background-color: white;
-        padding-top: 7rem;
-        text-align: center;
-        justify-content: center;
+    background-color: white;
+    padding-top: 7rem;
+    text-align: center;
+    justify-content: center;
     }
 
     #secondSection h1{
-        font-size: 3.5rem;
+    font-size: 3.5rem;
     }
 
     #secondSection h3{
-        font-size: 3rem;
+    font-size: 3rem;
     }
 
     .slider{
@@ -344,32 +316,35 @@ nav .brand{
     }
 
     iframe{
-        text-align: center;
+    text-align: center;
+    overflow-x: hidden;
         
     }
 
     .moreBtn{
-        box-shadow: 0px 10px 14px -7px #276873;
-        background:transparent;
-        background-color:transparent;
-        border-radius:26px;
-        border: 2px solid black;
-        display:inline-block;
-        cursor:pointer;
-        color:black;
-        font-family:Arial;
-        font-size:20px;
-        font-weight:bold;
-        padding:13px 32px;
-        text-decoration:none;
-        text-shadow:0px 1px 0px #3d768a;
+    box-shadow: 0px 10px 14px -7px #276873;
+    background:transparent;
+    background-color:transparent;
+    border-radius:26px;
+    border: 2px solid black;
+    display:inline-block;
+    cursor:pointer;
+    color:black;
+    font-family:Arial;
+    font-size:20px;
+    font-weight:bold;
+     padding:13px 32px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #3d768a;
     }
+
     .moreBtn:hover {
-        background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
-        background-color:#408c99;
+    background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+    background-color:#408c99;
     }
+
     .moreBtn:active {
-        position:relative;
-        top:1px;
+    position:relative;
+    top:1px;
     }
     
