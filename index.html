@@ -18,38 +18,41 @@
 
 
   <!-------------------------- MY style ssheeet ------------------------>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
 
-  <!------------------------------NAVBAR CODE-=------------------------>
+   <!------------------------------NAVBAR CODE-=------------------------>
 
-
-  <nav id="navBar">
-    <a href="#" class=" brand">Anime Academia</a>
+   <div class="nav-container">
+   <nav id="navBar">
+    <a href="#" class=" brand" >Anime Academia</a>
     <a href="#" class="sign">Sign up</a>
-  </nav>
+   </nav>
+  </div>
 
 
-  <section id="title">
+   <section id="title">
     <div class="title-text">
       <h1>Anime Shots is now onN </h1>
-      <h2>watch your favourite Anime</h2>
+      <p>watch your favourite Anime</p>
       <button>watch Now</button>
     </div>
-
+  
   </section>
 
   <!---------------------------SECOMD SECTION-----------------------
   ---------------------------- SLidER SECTION----------------------->
 
-  <section id="secondSection">
-    <h1>Direct From Japan to You</h1>
-    <h3>We fast track the best shows straight from Japan!</h3>
 
-    <iframe src="slider.html" class="slider" id="slider" style="height: 56rem;
+  <section id="secondSection">
+    <div class="text-container">
+      <h1>Direct From Japan to You</h1>
+      <p>We fast track the best shows straight from Japan!</p>
+    </div>
+    <iframe src="/slider 2/slider.html" class="slider" id="slider" style="height: 60rem;
        width: 100%;" scrolling="no">
     </iframe>
 
@@ -60,7 +63,48 @@
   </section>
 
 
-  <script src="script.js"></script>
+  <!------------------- THIRD SECTION TV SECTION------------------------- -->
+
+
+  <section id="thirdSection">
+    <div class="third-Header">
+      <h1>Watch Any Time , Anywhere</h1>
+      <p>Stream on desktop, mobile, gaming consoles, and other streaming devices <br>
+        that include iOS, Android, Apple TV, Xbox, Roku, and PS4.</p>
+    </div>
+
+    <img class="tv-image1" src="image/tv.png">
+    <img class="tv-image2" src="image/tv2.png">
+    <br>
+    <a href="#"><button class="third-btn">EveryWhere Anime</button></a>
+
+  </section>
+
+
+  <!----------------------- FOOTER SECTION--------------------------- -->
+
+
+  <footer>
+    <section id="footer-section">
+      <div class="footer-line">
+        <a href="#" id="footer-logo" style="font-weight: 100;">Anime Academia</a>
+        <a href="#">Search</a>
+        <a href="#">Explore</a>
+        <a href="#">Device</a>
+        <a href="#">blog</a>
+        <a href="#">Sign up</a>
+        <a href="#">Help</a>
+      </div>
+      <div class="icon-group">
+        <a href="#">O</a>
+        <a href="#">O</a>
+        <a href="#">O</a>
+      </div>
+
+      <p class="copyright-text">Brought to you by Madman Anime Group Pty Ltd. ABN 50 615 305 587. Level 2, 289 Wellington Parade South, East Melbourne, Victoria 3002, Australia. © AnimeLab ™ 2021</p>
+    </section>
+  </footer>
+  <script src="script/script.js"></script>
 </body>
 
 </html>

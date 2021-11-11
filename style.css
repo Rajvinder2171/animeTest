@@ -1,4 +1,4 @@
-/* https://colorhunt.co/palette/ffdadadbf6e99ddfd331326f */
+/* https://colorhunt.co/palette/3db2ffffeddaffb830ff2442 */
 
 
 		/* Tile section */
@@ -31,7 +31,9 @@ nav{
 }
 
 .floatingNav {
-    background-color: #117ace!important;
+    /* background-color: #117ace!important; */
+    background: rgb(17,122,206);
+    background: linear-gradient(282deg, rgba(17,122,206,1) 0%, rgba(17,122,206,0.742734593837535) 41%, rgba(17,122,206,0.938813025210084) 68%, rgba(17,122,206,1) 100%);
     border-radius: 2px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
   }
@@ -46,6 +48,7 @@ nav .brand{
     margin-left: 3rem;
 	font-size: 4.5rem;
 	color: white;
+    opacity: 1;
 
 }
 
@@ -81,14 +84,14 @@ nav .brand{
  /*************** title SECTION *********************/
     
 #title{
-    background-image: url("PicsArt_10-20-10.55.24.png");
+    background-image: url("https://raw.githubusercontent.com/Rajvinder2171/animeTest/main/PicsArt_10-20-10.55.24.png");
     background-repeat: no-repeat;
     background-size: 55rem;
     background-position-x: 12rem;
     background-position-y: 11rem; 
     border-bottom: 2px solid black;
     padding-top: 0.2rem;
-    padding-bottom: 19.7rem;
+    padding-bottom: 22.7rem;
 	font-family: sans-serif;
 	justify-content: space-between;
     display: flex;
@@ -97,9 +100,19 @@ nav .brand{
 }
 
 
-#title h1 , h2 {
+#title h1  {
     font-size: 5.6rem;
 	margin: auto;
+    color: white;
+    
+ 
+  
+}
+
+#title p{
+    font-size: 3rem;
+	margin: auto;
+    color: white;
     
  
   
@@ -119,9 +132,14 @@ nav .brand{
    }
 
 #title button:hover{
-    box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+    box-shadow: 0 4px 8px 0 rgb(116, 13, 13), 0 6px 20px 0 rgb(194, 28, 28);
 
    }
+
+   #title .button:active {
+    position:relative;
+    top:1px;
+    }
 
 
  .title-text{
@@ -142,7 +160,7 @@ nav .brand{
     margin-left: 66rem;
     }
 
-    #title h1 , h2{
+    #title h1 {
     font-size: 5rem;
     }
 
@@ -154,10 +172,12 @@ nav .brand{
     #title{
     background-position-x: center;
     background-size: 40rem;
+    padding-bottom: 19.7rem;
+    background-position-y: 10rem; 
        
     }
 
-    #title h1 , h2{
+    #title h1 {
      font-size: 4rem;
     }
 
@@ -209,7 +229,13 @@ nav .brand{
     }
     
     }
-    
+    @media only screen and (max-width: 760px) {
+     #title p{
+         font-size: 2rem;
+     }
+   
+    }
+
 
 @media only screen and (max-width: 469px) {
     nav {    
@@ -238,7 +264,7 @@ nav .brand{
     width: 36rem;
     }
 
-    #title h1 , h2 {
+    #title h1{
     font-size: 3rem;
     }
 
@@ -266,7 +292,7 @@ nav .brand{
     }
 
    nav .brand{
-    font-size:2.9rem ;
+    font-size:2.3rem ;
     }
 
 }
@@ -295,34 +321,43 @@ nav .brand{
 
 
     #secondSection{
-    background-color: white;
-    padding-top: 7rem;
+    background-color:#FEF9EF ;
     text-align: center;
     justify-content: center;
+    padding: 7rem 1rem 7rem 1rem;
+    border-bottom: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+  
     }
 
+    #secondSection .text-container{
+    color: black;
+    display: inline-block;
+    border-radius: 20px 20px 0px 0px;
+    }
+  
     #secondSection h1{
     font-size: 3.5rem;
+    
     }
 
-    #secondSection h3{
-    font-size: 3rem;
+    #secondSection p{
+    font-size: 2rem;
+    margin-top: 1rem;
     }
 
-    .slider{
-    margin-top: 5rem;
-    border: none;
-        
-    }
-
-    iframe{
+    #secondSection .slider{
+    padding-top: 4rem;
     text-align: center;
     overflow-x: hidden;
-        
+    border: none;
+     
     }
 
-    .moreBtn{
-    box-shadow: 0px 10px 14px -7px #276873;
+  
+
+    #secondSection .moreBtn{
+    box-shadow: 0px 10px 14px -7px #646768;
     background:transparent;
     background-color:transparent;
     border-radius:26px;
@@ -333,18 +368,206 @@ nav .brand{
     font-family:Arial;
     font-size:20px;
     font-weight:bold;
-     padding:13px 32px;
+    padding:13px 32px;
     text-decoration:none;
     text-shadow:0px 1px 0px #3d768a;
+    margin-top: 6rem;
     }
 
-    .moreBtn:hover {
-    background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
-    background-color:#408c99;
+    #secondSection .moreBtn:hover {
+    background:linear-gradient(to bottom, #0d0d0e 5%, #111111 100%);
+    color: white;
+    
     }
 
-    .moreBtn:active {
+    #secondSection .moreBtn:active {
     position:relative;
     top:1px;
     }
     
+
+
+    @media only screen and (max-width: 500px) {
+        #secondSection h1{
+        font-size: 3rem;
+            
+        }
+
+        #secondSection p{
+        font-size: 1.8rem;
+        }
+
+        #secondSection .moreBtn{
+        margin-top: 1rem;
+        }
+
+
+    }
+
+    @media only screen and (max-width: 340px) {
+      #secondSection .slider{
+          height: 53rem;
+      }
+
+    }
+ /*********************** THIRD SECTION ***************************
+ ************************ TV SECTION ***************************** */
+
+ #thirdSection{
+     background-color: #F8C000;
+     padding: 7rem 0 4rem 0;
+     text-align: center;
+     overflow-x: hidden;
+ }
+
+ .third-Header h1{
+   font-size: 3.5rem;
+
+ }
+
+ .third-Header p {
+     font-size: 1.5rem;
+     margin-top: 2rem;
+     color: rgb(82, 78, 78);
+     margin-bottom: 2rem;
+ }
+
+#thirdSection .tv-image1{
+    width: 190rem;
+    margin-left: -16rem;
+    margin-top: -9rem;
+}
+
+#thirdSection .tv-image2{
+    display: none;
+}
+
+#thirdSection .third-btn{
+    box-shadow: 0px 10px 14px -7px #555858;
+    background:transparent;
+    background-color:transparent;
+    border-radius:26px;
+    border: 2px solid black;
+    display:inline-block;
+    cursor:pointer;
+    color:black;
+    font-family:Arial;
+    font-size:20px;
+    font-weight:bold;
+    padding:13px 32px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #3d768a;
+    margin-top: 6rem;
+}
+
+#thirdSection .third-btn:hover {
+    background:linear-gradient(to bottom, #0d0d0e 5%, #0d0d0e 100%);
+   
+    color: white;
+    }
+
+.third-btn:active {
+    position:relative;
+    top:1px;
+    }
+
+    @media only screen and (max-width: 1108px) {
+
+        #thirdSection .tv-image1{
+           width: fit-content;
+        }
+    }
+
+    @media only screen and (max-width: 908px) {
+
+        #thirdSection .tv-image1{
+          display: none;
+        }
+
+        #thirdSection .tv-image2{
+            display: block;
+            text-align: center;
+            margin: auto;
+        }
+    }
+
+    @media only screen and (max-width: 908px) {
+        #thirdSection .tv-image2{
+        width: 80%;
+        }    
+    }
+
+    @media only screen and (max-width: 500px) {
+
+        .third-Header h1{
+            font-size: 3rem;
+        }
+
+        .third-Header p {
+            padding: 0 1rem 0 1rem;
+        }
+
+
+    }
+    @media only screen and (max-width: 460px) {
+        .third-Header h1{
+            font-size: 2.8rem;
+        }
+        .third-Header p {
+        justify-content: left;
+        }
+      
+  
+    }
+
+
+    /* *************            FOOOTER SECTIOB             *********************
+       **************           fourth section             ******************** */
+
+
+    #footer-section{
+        background-color: white;
+        padding: 4rem 1rem 3rem 1rem;
+        text-align: center;
+
+    }
+
+    #footer-section .footer-line{
+     padding-bottom: 3rem;
+    }
+
+    #footer-section .footer-line a{
+        font-size: 1.3rem;
+        margin-right: 4rem;
+        text-align: center;
+        display: inline;
+        color: gray;
+        padding-top: 1rem;
+        line-height: 2;
+    }
+
+    #footer-section #footer-logo{
+        font-size: 2rem;
+        font-weight: bolder;
+    }
+
+    #footer-section .icon-group{
+        font-size: 2rem;
+        font-weight: lighter;
+        color: gray;
+    }
+
+    .copyright-text{
+        padding-top: 1rem;
+        color: gray;
+        line-height: 1.9;
+        
+    }
+
+    @media only screen and (max-width: 720px) {
+     
+    #footer-section #footer-logo{
+     display: block;
+    }
+
+}
