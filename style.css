@@ -97,6 +97,7 @@ nav .brand{
     display: flex;
     width: auto;
     color: white;
+    height: 100vh;
 }
 
 
