@@ -88,7 +88,7 @@ nav .brand{
  }
 #title{
     
-    background-image: url("https://raw.githubusercontent.com/Rajvinder2171/animeTest/main/PicsArt_10-20-10.55.24.png");
+    background-image: url("konosubeBg.png");
     background-repeat: no-repeat;
     background-size: 55rem;
     background-position-x: 12rem;
@@ -488,7 +488,7 @@ nav .brand{
 }
 
 #thirdSection .tv-image1:hover{
-content:url("/Respomsive/image/konotv3.gif");
+content:url("konotv3.gif");
 cursor: pointer;
 }
 
