@@ -48,7 +48,6 @@ nav .brand{
     margin-left: 3rem;
 	font-size: 4.5rem;
 	color: white;
-    opacity: 1;
 
 }
 
@@ -73,6 +72,7 @@ nav .brand{
 .sign:hover {
     background-color:white;
     color:#117ace ;
+    box-shadow: 0 0 50px #fcfcfc
 }
 
 .sign:active {
@@ -83,7 +83,11 @@ nav .brand{
 
  /*************** title SECTION *********************/
     
+ .background-container{
+    background-image: radial-gradient(circle, #67a5ee, #5596e2, #4287d6, #2c79ca, #086bbe);
+ }
 #title{
+    
     background-image: url("https://raw.githubusercontent.com/Rajvinder2171/animeTest/main/PicsArt_10-20-10.55.24.png");
     background-repeat: no-repeat;
     background-size: 55rem;
@@ -97,15 +101,35 @@ nav .brand{
     display: flex;
     width: auto;
     color: white;
-    height: 100vh;
+    margin: auto;
+    height: 88rem;
+    position: static;
+    /* height: 100vh;
+    position: static;
+     */
 }
+
+.title-text{
+    /* margin-top: 16rem; */
+    /* transform: translateY(28%); */
+    
+    padding-top: 20rem;
+    margin-left: auto;
+    margin-right:7rem;
+    margin-top: 20rem;
+    width: 74rem; 
+    display: inline-block;
+    position: static;
+
+    
+   }
 
 
 #title h1  {
     font-size: 5.6rem;
 	margin: auto;
     color: white;
-    
+    position: static;
  
   
 }
@@ -133,8 +157,11 @@ nav .brand{
    }
 
 #title button:hover{
-    box-shadow: 0 4px 8px 0 rgb(116, 13, 13), 0 6px 20px 0 rgb(194, 28, 28);
-
+    /* box-shadow: 0 4px 8px 0 rgb(116, 13, 13), 0 6px 20px 0 rgb(194, 28, 28); */
+    box-shadow: 0 0 50px #fff ;
+    background: #df0b36;
+    
+    color: white;
    }
 
    #title .button:active {
@@ -143,26 +170,33 @@ nav .brand{
     }
 
 
- .title-text{
-    margin-top: 16rem;
-    padding-top: 20rem;
-    margin-left: auto;
-    margin-right:7rem;
-    width: 74rem; 
-    display: inline-block;
-    
-   }
+
 
       /************* SCREEN MEDIA *************/
+      @media only screen and (max-width: 1460px) {
+      .title-text{
+        margin-left:75rem;
+      }
+      }
+
 
 @media only screen and (max-width: 1340px) {
-            
+           
+    #title{
+    background-size: 49rem;
+    background-position-y: 16rem;
+    }
     .title-text{
     margin-left: 66rem;
+    margin-top: 17rem;
     }
 
     #title h1 {
-    font-size: 5rem;
+    font-size: 5.5rem;
+    }
+
+    nav .brand{
+    font-size: 4rem;
     }
 
     }
@@ -171,7 +205,7 @@ nav .brand{
 @media only screen and (max-width: 1120px) {
          
     #title{
-    background-position-x: center;
+    background-position: bottom;
     background-size: 40rem;
     padding-bottom: 19.7rem;
     background-position-y: 10rem; 
@@ -190,6 +224,7 @@ nav .brand{
     width: 53rem;
     display: inline-block;
     padding-top: 0;
+
  
     }
 
@@ -209,14 +244,15 @@ nav .brand{
     #title{  
     text-align: center;
     background-size: 40rem;
-    background-position-y: 16rem;
+    /* height: 100vh; */
+    background-position-y: 21rem;
                  
     }
 
         
 
     .title-text{
-    margin-top: 49rem;
+    margin-top: auto;
      margin-left: auto;
     margin-right: auto;   
     width: 53rem;
@@ -258,11 +294,14 @@ nav .brand{
     #title{
     padding-bottom: 11rem;
     background-size: 33rem;
-    background-position-y: 22rem;
+    background-position: bottom;
+    /* background-position-y: 22rem; */
+    height: 76rem;
     }
 
     .title-text{
     width: 36rem;
+    transform: translateY(28%); 
     }
 
     #title h1{
@@ -278,6 +317,9 @@ nav .brand{
     }
 
 }
+
+
+
 
 @media only screen and (max-width: 322px) {
    
@@ -295,6 +337,8 @@ nav .brand{
    nav .brand{
     font-size:2.3rem ;
     }
+
+    
 
 }
 
@@ -378,6 +422,7 @@ nav .brand{
     #secondSection .moreBtn:hover {
     background:linear-gradient(to bottom, #0d0d0e 5%, #111111 100%);
     color: white;
+    box-shadow: 0 0 50px #000000 ;
     
     }
 
@@ -400,6 +445,7 @@ nav .brand{
 
         #secondSection .moreBtn{
         margin-top: 1rem;
+        font-size: 11px;
         }
 
 
@@ -421,6 +467,8 @@ nav .brand{
      overflow-x: hidden;
  }
 
+ 
+
  .third-Header h1{
    font-size: 3.5rem;
 
@@ -434,9 +482,14 @@ nav .brand{
  }
 
 #thirdSection .tv-image1{
-    width: 190rem;
-    margin-left: -16rem;
-    margin-top: -9rem;
+    width: 60%;
+    /* margin-left: -16rem;
+    margin-top: -9rem; */
+}
+
+#thirdSection .tv-image1:hover{
+content:url("/Respomsive/image/konotv3.gif");
+cursor: pointer;
 }
 
 #thirdSection .tv-image2{
@@ -475,7 +528,7 @@ nav .brand{
     @media only screen and (max-width: 1108px) {
 
         #thirdSection .tv-image1{
-           width: fit-content;
+           width: 80%;
         }
     }
 
@@ -488,7 +541,9 @@ nav .brand{
         #thirdSection .tv-image2{
             display: block;
             text-align: center;
-            margin: auto;
+            margin-top: 10rem;
+            margin-left: auto;
+            margin-right: auto;
         }
     }
 
@@ -508,14 +563,20 @@ nav .brand{
             padding: 0 1rem 0 1rem;
         }
 
+        #thirdSection .third-btn {
+        font-size: 11px;
+        }
+
 
     }
     @media only screen and (max-width: 460px) {
         .third-Header h1{
             font-size: 2.8rem;
+
         }
         .third-Header p {
         justify-content: left;
+        font-size: 18px;
         }
       
   
@@ -538,7 +599,7 @@ nav .brand{
     }
 
     #footer-section .footer-line a{
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         margin-right: 4rem;
         text-align: center;
         display: inline;
@@ -548,7 +609,7 @@ nav .brand{
     }
 
     #footer-section #footer-logo{
-        font-size: 2rem;
+        font-size: 5rem;
         font-weight: bolder;
     }
 
@@ -569,6 +630,8 @@ nav .brand{
      
     #footer-section #footer-logo{
      display: block;
+     font-size: 33px;
+     margin: auto;
     }
 
 }
